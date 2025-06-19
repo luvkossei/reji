@@ -1,0 +1,94 @@
+body {
+  background: url('https://images.unsplash.com/photo-1610394212028-45e0fd5b5585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(30, 20, 10, 0.85);
+  max-width: 600px;
+  margin: 5vh auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #000;
+}
+
+h1 {
+  text-align: center;
+  color: #ffdd66;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.category {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.category label {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.search-area {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9933;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #cc7a00;
+}
+
+#result {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  background: #fff3;
+  padding: 1rem;
+  border-radius: 5px;
+  min-height: 3rem;
+}
+
+#suggestions {
+  text-align: left;
+  margin-top: 0.5rem;
+  background: #fff2;
+  border: 1px solid #ffcc99;
+  max-height: 150px;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.suggestion-item {
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  color: #ffe;
+}
+
+.suggestion-item:hover {
+  background-color: #ffcc66;
+  color: #000;
+}
